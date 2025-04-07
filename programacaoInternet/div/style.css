@@ -1,0 +1,58 @@
+.divAlignCenter{
+    background-color: rgb(56, 0, 56);
+    margin: 0 auto;
+}
+
+div{
+    width: 400px;
+    height: 300px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+.div-AlignLeft{
+    background-color: rgb(159, 159, 255);
+    float: left;
+}
+
+.div-AlignRight{
+    background-color: rgb(32, 22, 22);
+    float: right;
+}
+
+.div-Sticky{
+    background-color: rgb(0, 255, 179);
+    position: sticky;
+    top: 100px;
+    left: 620px;
+}
+
+.div-Relative{
+    background-color: rgb(30, 255, 0);
+    position: relative;
+    top: 120px;
+    left: 1020px;
+}
+
+.div-Fixed{
+    background-color: rgb(250, 0, 237);
+    position: fixed;
+    top: 200px;
+    left: 200px;
+}
+
+.div-Static{
+    background-color: rgb(255, 0, 51);
+    position: static;
+    top: 300px;
+    left: 300px;
+}
+
+.div-Absolute{
+    background-color: rgb(109, 0, 233);
+    position: absolute;
+    top: 60px;
+    left: 30px;
+}

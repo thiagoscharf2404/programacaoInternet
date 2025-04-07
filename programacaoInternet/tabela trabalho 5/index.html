@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela de Classificação</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    th, td {
+      border: 1px solid #DDDDDD;;
+      padding: 6px;
+    }
+
+    th {
+      background-color: #ffffff;
+    }
+
+    .time{
+        text-align: start;
+    }
+    .fcinza{
+        background-color: #F7F7F7;;
+    }
+
+    .libertadores {
+      color: #0033cc;
+      font-weight: bold;
+    }
+
+    .pre-libertadores {
+      color: #00ccff;
+      font-weight: bold;
+    }
+
+    .sul-americana {
+      color: #ffcc00;
+      font-weight: bold;
+    }
+
+    .nao-rebaixados{
+        color: #CCCCCC;
+        font-weight: bold;
+    }
+
+    .rebaixado {
+      color: red;
+      font-weight: bold;
+    }
+
+    .quadrado {
+      width: 12px;
+      height: 12px;
+      display: inline-block;
+      border-radius: 2px;
+    }
+
+    .azul { background-color: #0033cc; }
+    .azul-claro { background-color: #00ccff; }
+    .amarelo { background-color: #ffcc00; }
+    .vermelho { background-color: #cc0000; }
+  </style>
+</head>
+<body>
+
+  <table>
+        <tr>
+            <th colspan="2"></th>
+            <th>P</th>
+            <th>J</th>
+            <th>V</th>
+            <th>E</th>
+            <th>D</th>
+            <th>GP</th>
+            <th>GC</th>
+            <th>SG</th>
+            <th>%</th>
+        </tr>
+
+        <tr>
+            <td class="libertadores">1</td>
+            <td class="time">Corinthians</td>
+            <td class="fcinza"><strong>17</strong></td>
+            <td>7</td>
+            <td class="fcinza">5</td>
+            <td>2</td>
+            <td class="fcinza">0</td>
+            <td>15</td>
+            <td class="fcinza">8</td>
+            <td>7</td>
+            <td class="fcinza">81</td>
+        </tr>
+
+        <tr><td class="libertadores">2</td>
+            <td class="time">Ceará</td>
+            <td class="fcinza"><strong>17</strong></td>
+            <td>7</td>
+            <td class="fcinza">5</td>
+            <td>2</td>
+            <td class="fcinza">0</td>
+            <td>7</td>
+            <td class="fcinza">1</td>
+            <td>6</td>
+            <td class="fcinza">81</td>
+        </tr>
+
+        <tr><td class="libertadores">3</td>
+            <td class="time">Fluminense</td>
+            <td class="fcinza"><strong>15</strong></td>
+            <td>7</td>
+            <td class="fcinza">5</td>
+            <td>0</td>
+            <td class="fcinza">2</td>
+            <td>11</td>
+            <td class="fcinza">5</td>
+            <td>6</td>
+            <td class="fcinza">71.4</td>
+        </tr>
+
+        <tr><td class="pre-libertadores">4</td>
+            <td class="time">Santos</td>
+            <td class="fcinza"><strong>12</strong></td>
+            <td>7</td>
+            <td class="fcinza">3</td>
+            <td>3</td>
+            <td class="fcinza">1</td>
+            <td>10</td>
+            <td class="fcinza">5</td>
+            <td>5</td>
+            <td class="fcinza">57.1</td>
+        </tr>
+
+        <tr>
+            <td class="sul-americana">5</td>
+            <td class="time">São Paulo</td>
+            <td class="fcinza"><strong>11</strong></td>
+            <td>7</td>
+            <td class="fcinza">3</td>
+            <td>2</td>
+            <td class="fcinza">2</td>
+            <td>9</td>
+            <td class="fcinza">6</td>
+            <td>3</td>
+            <td class="fcinza">52.4</td>
+        </tr>
+
+        <tr>
+            <td class="sul-americana">6</td>
+            <td class="time">Goiás</td>
+            <td class="fcinza"><strong>10</strong></td>
+            <td>7</td>
+            <td class="fcinza">3</td>
+            <td>1</td>
+            <td class="fcinza">3</td>
+            <td>9</td>
+            <td class="fcinza">10</td>
+            <td>-1</td>
+            <td class="fcinza">47.6</td>
+        </tr>
+
+        <tr>
+            <td class="sul-americana">7</td>
+            <td class="time">Botafogo</td>
+            <td class="fcinza"><strong>9</strong></td>
+            <td>7</td>
+            <td class="fcinza">2</td>
+            <td>3</td>
+            <td class="fcinza">2</td>
+            <td>13</td>
+            <td class="fcinza">11</td>
+            <td>2</td>
+            <td class="fcinza">42.9</td>
+        </tr>
+
+        <tr>
+            <td class="sul-americana">8</td>
+            <td class="time">Flamengo</td>
+            <td class="fcinza"><strong>9</strong></td>
+            <td>7</td>
+            <td class="fcinza">2</td>
+            <td>3</td>
+            <td class="fcinza">2</td>
+            <td>9</td>
+            <td class="fcinza">8</td>
+            <td>1</td>
+            <td class="fcinza">42.9</td>
+        </tr>
+        
+        <tr>
+            <td class="sul-americana">9</td>
+            <td class="time">Cruzeiro</td>
+            <td class="fcinza"><strong>9</strong></td>
+            <td>6</td>
+            <td class="fcinza">2</td>
+            <td>3</td>
+            <td class="fcinza">1</td>
+            <td>7</td>
+            <td class="fcinza">6</td>
+            <td>1</td>
+            <td class="fcinza">50</td>
+        </tr>
+
+        <tr>
+            <td class="sul-americana">10</td>
+            <td class="time">Guarani</td>
+            <td class="fcinza"><strong>9</strong></td>
+            <td>6</td>
+            <td class="fcinza">2</td>
+            <td>3</td>
+            <td class="fcinza">1</td>
+            <td>7</td>
+            <td class="fcinza">7</td>
+            <td>0</td>
+            <td class="fcinza">50</td>
+        </tr>
+
+        <tr>
+            <td class="sul-americana">11</td>
+            <td class="time">Palmeiras</td>
+            <td class="fcinza"><strong>8</strong></td>
+            <td>7</td>
+            <td class="fcinza">2</td>
+            <td>2</td>
+            <td class="fcinza">3</td>
+            <td>5</td>
+            <td class="fcinza">4</td>
+            <td>1</td>
+            <td class="fcinza">44.4</td>
+        </tr>
+
+        <tr>
+            <td class="sul-americana">12</td>
+            <td class="time">Grêmio</td>
+            <td class="fcinza"><strong>8</strong></td>
+            <td>7</td>
+            <td class="fcinza">2</td>
+            <td>2</td>
+            <td class="fcinza">3</td>
+            <td>10</td>
+            <td class="fcinza">11</td>
+            <td>-1</td>
+            <td class="fcinza">38.1</td>
+        </tr>
+
+        <tr>
+            <td class="nao-rebaixado">13</td>
+            <td class="time">Avaí</td>
+            <td class="fcinza"><strong>8</strong></td>
+            <td>7</td>
+            <td class="fcinza">2</td>
+            <td>2</td>
+            <td class="fcinza">3</td>
+            <td>10</td>
+            <td class="fcinza">11</td>
+            <td>-1</td>
+            <td class="fcinza">38.1</td>
+        </tr>
+
+        <tr>
+            <td class="nao-rebaixado">14</td>
+            <td class="time">Vitória</td>
+            <td class="fcinza"><strong>8</strong></td>
+            <td>7</td>
+            <td class="fcinza">2</td>
+            <td>2</td>
+            <td class="fcinza">3</td>
+            <td>10</td>
+            <td class="fcinza">11</td>
+            <td>-1</td>
+            <td class="fcinza">38.1</td>
+        </tr>
+
+        <tr>
+            <td class="nao-rebaixado">15</td>
+            <td class="time">Prudente</td>
+            <td class="fcinza"><strong>8</strong></td>
+            <td>6</td>
+            <td class="fcinza">2</td>
+            <td>2</td>
+            <td class="fcinza">2</td>
+            <td>9</td>
+            <td class="fcinza">11</td>
+            <td>-2</td>
+            <td class="fcinza">44.4</td>
+        </tr>
+        
+        <tr>
+            <td class="nao-rebaixado">16</td>
+            <td class="time">Atlético-PR</td>
+            <td class="fcinza"><strong>7</strong></td>
+            <td>7</td>
+            <td class="fcinza">1</td>
+            <td>4</td>
+            <td class="fcinza">2</td>
+            <td>10</td>
+            <td class="fcinza">15</td>
+            <td>-5</td>
+            <td class="fcinza">33.3</td>
+        </tr>
+
+        <tr>
+            <td class="rebaixado">17</td>
+            <td class="time">Internacional</td>
+            <td class="fcinza"><strong>6</strong></td>
+            <td>6</td>
+            <td class="fcinza">2</td>
+            <td>0</td>
+            <td class="fcinza">4</td>
+            <td>10</td>
+            <td class="fcinza">12</td>
+            <td>-2</td>
+            <td class="fcinza">33.3</td>
+        </tr>
+
+        <tr>
+            <td class="rebaixado">18</td>
+            <td class="time">Atlético-MG</td>
+            <td class="fcinza"><strong>6</strong></td>
+            <td>7</td>
+            <td class="fcinza">2</td>
+            <td>0</td>
+            <td class="fcinza">5</td>
+            <td>10</td>
+            <td class="fcinza">16</td>
+            <td>-6</td>
+            <td class="fcinza">28.6</td>
+        </tr>
+
+        <tr>
+            <td class="rebaixado">19</td>
+            <td class="time">Vasco</td>
+            <td class="fcinza"><strong>5</strong></td>
+            <td>7</td>
+            <td class="fcinza">1</td>
+            <td>2</td>
+            <td class="fcinza">4</td>
+            <td>12</td>
+            <td class="fcinza">19</td>
+            <td>-7</td>
+            <td class="fcinza">23.8</td>
+        </tr>
+
+        <tr>
+            <td class="rebaixado">20</td>
+            <td class="time">Atlético-GO</td>
+            <td class="fcinza"><strong>1</strong></td>
+            <td>6</td>
+            <td class="fcinza">0</td>
+            <td>1</td>
+            <td class="fcinza">5</td>
+            <td>3</td>
+            <td class="fcinza">9</td>
+            <td>-6</td>
+            <td class="fcinza">5.6</td>
+        </tr>
+    
+        <tr class="time">
+            <td colspan="11">
+                <div class="quadrado azul"></div> TAÇA LIBERTADORES &nbsp;&nbsp;
+                <div class="quadrado azul-claro"></div> PRÉ-LIBERTADORES &nbsp;&nbsp;
+                <div class="quadrado amarelo"></div> SUL-AMERICANA &nbsp;&nbsp;
+                <div class="quadrado vermelho"></div> REBAIXADOS<br>
+                <strong>P</strong> pontos &nbsp;&nbsp;
+                <strong>J</strong> jogos &nbsp;&nbsp;
+                <strong>V</strong> vitórias &nbsp;&nbsp;
+                <strong>E</strong> empates &nbsp;&nbsp;
+                <strong>D</strong> derrotas &nbsp;&nbsp;
+                <strong>GP</strong> gols pró &nbsp;&nbsp;
+                <strong>GC</strong> gols contra &nbsp;&nbsp;
+                <strong>SG</strong> saldo de gols &nbsp;&nbsp;
+                (<strong>%</strong>) aproveitamento 
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

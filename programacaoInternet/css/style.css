@@ -1,0 +1,18 @@
+.palavra{
+    color: rgb(204, 0, 255);
+    font-size: 80px;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+h1{
+    color: rgb(255, 0, 149);
+    font-size: 50px;
+    font-family: Georgia;
+    font-style: inherit;
+}
+
+.cafe{
+    color: rgb(233, 29, 29);
+}
