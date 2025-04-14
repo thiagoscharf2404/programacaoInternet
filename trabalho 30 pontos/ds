@@ -1,0 +1,129 @@
+<div class="equipes">
+        <h1>Pilotos e Equipes:</h1>
+        <table border="1" align="center">
+            <tr>
+                <th class="linha2" colspan="2">tabela de pontuação total do campeonato</th>
+            </tr>
+            <tr>
+                <td>Max Verstappen (HOL)</td> 
+                <td align="center">Red Bull Racing/Honda</td>
+            </tr>
+            <tr>
+                <td>Yuki Tsunoda (JPN)</td> 
+                <td align="center">Red Bull Racing/Honda</td>
+            </tr>
+            <tr>
+                <td>Fernando Alonso (ESP)</td> 
+                <td align="center">Aston Martin/Mercedes</td>
+            </tr>
+            <tr>
+                <td>Lance Stroll (CAN)</td> 
+                <td align="center">Aston Martin/Mercedes</td>
+            </tr>
+            <tr>
+                <td>Kimi Antonelli (ITA)</td> 
+                <td align="center">Mercedes</td>
+            </tr>
+            <tr>
+                <td>George Russell (GBR)</td> 
+                <td align="center">Mercedes</td>
+            </tr>
+            <tr>
+                <td>Lewis Hamilton (GBR)</td> 
+                <td align="center">Ferrari</td>
+            </tr>
+            <tr>
+                <td>Charles Leclerc (MON)</td> 
+                <td align="center">Ferrari</td>
+            </tr>
+            <tr>
+                <td>Oscar Piastri (AUS)</td> 
+                <td align="center">McLaren/Mercedes</td>
+            </tr>
+            <tr>
+                <td>Lando Norris (GBR)</td> 
+                <td align="center">McLaren/Mercedes</td>
+            </tr>
+            <tr>
+                <td>Esteban Ocon (FRA)</td> 
+                <td align="center">Haas/Ferrari</td>
+            </tr>
+            <tr>
+                <td>Oliver Bearman (GBR)</td> 
+                <td align="center">Haas/Ferrari</td>
+            </tr>
+            <tr>
+                <td>Nico Hulkenberg (ALE)</td> 
+                <td align="center">Kick Sauber/Ferrari</td>
+            </tr>
+            <tr>
+                <td>Gabriel Bortoleto (BRA)</td> 
+                <td align="center">Kick Sauber/Ferrari</td>
+            </tr>
+            <tr>
+                <td>Jack Doohan (AUS)</td> 
+                <td align="center">Alpine/Renault</td>
+            </tr>
+            <tr>
+                <td>Pierre Gasly (FRA)</td> 
+                <td align="center">Alpine/Renault</td>
+            </tr>
+            <tr>
+                <td>Liam Lawson (NZL)</td> 
+                <td align="center">Racing Bulls/Honda</td>
+            </tr>
+            <tr>
+                <td>Isack Hadjar (FRA)</td> 
+                <td align="center">Racing Bulls/Honda</td>
+            </tr>
+            <tr>
+                <td>Alexander Albon (TAI)</td> 
+                <td align="center">Williams/Mercedes</td>
+            </tr>
+            <tr>
+                <td>Carlos Sainz (ESP)</td> 
+                <td align="center">Williams/Mercedes</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<footer>
+    <br>
+    <hr>
+    <h1>Sistema de Pontuação</h1>
+        <table border="1" align="center">
+            <tr>
+                <th colspan="2">Sitema de Pontuação</th>
+            </tr>
+            <tr>
+                <td align="center">1º 25 pontos</td>
+            </tr>
+            <tr>
+                <td align="center">2º 18 pontos</td>
+            </tr>
+            <tr>
+                <td align="center">3º 15 pontos</td>
+            </tr>
+            <tr>
+                <td align="center">4º 12 pontos</td>
+            </tr>
+            <tr>
+                <td align="center">5º 10 pontos</td>
+            </tr>
+            <tr>
+                <td align="center">6º 8 pontos</td>
+            </tr>
+            <tr>
+                <td align="center">7º 6 pontos</td>
+            </tr>
+            <tr>
+                <td align="center">8º 4 pontos</td>
+            </tr>
+            <tr>
+                <td align="center">9º 2 pontos</td>
+            </tr>
+            <tr>
+                <td align="center">10° 1 ponto</td>
+            </tr>
+        </table>
+</footer>
