@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(156, 154, 154);
+}
+header{
+    margin: -10px;
+    background-color: rgb(85, 84, 84);
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fia{
+    width: 170px;
+    height: 150px;
+}
+
+.title{
+    color: white;
+    padding-top: 32px;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+}
+
+.fum{
+    width: 170px;
+    height: 150px;
+}
+
+table{
+    border: 2px solid black;
+    border-radius: 10px;
+    border-collapse: collapse;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    background-color: rgb(71, 71, 128);
+}
+
+
+th, td{
+    padding: 9px;
+}
+
+th{
+    color: black;
+}
+
+.fum{
+    cursor: pointer;
+}
+
+.t1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+h1{
+    color: rgb(236, 74, 74);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+}
+
+.logos{
+    width: 25px;
+}
+
+
+.fot{
+    display: flex;
+    justify-content: space-between
+}
+.unipar{
+    width: 170px;
+}
+
+.nomes{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
