@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Marina Nunes Neves RA: 60005451 Thiago Scharf RA: 60005685</title>
+</head>
+<body>
+    <h1>Calculadora de Salário - Professor</h1>
+
+  <label>Selecione o nível do professor:</label>
+  <div class="radio-group">
+    <label><input type="radio" id="nivel1" name="nivel" value="1"> Nível 1 - R$12,00 por hora</label>
+    <label><input type="radio" id="nivel2" name="nivel" value="2"> Nível 2 - R$17,00 por hora</label>
+    <label><input type="radio" id="nivel3" name="nivel" value="3"> Nível 3 - R$25,00 por hora</label>
+  </div>
+
+  <label for="horas">Quantidade de horas/aula por semana:</label>
+  <input type="number" id="horas" min="1" placeholder="Ex: 10" />
+
+  <button id="botaoCalcula">Calcular</button>
+
+  <h3 id="resultado"></h3>
+</body>
+<script src="script.js"></script>
+</html>

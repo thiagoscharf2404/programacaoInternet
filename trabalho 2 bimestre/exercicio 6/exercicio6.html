@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Marina Nunes Neves RA: 60005451 Thiago Scharf RA: 60005685</title>
+</head>
+<body>
+
+    <h2>Pedido da Lanchonete</h2>
+
+    <label for="codigo">Código do item:</label>
+    <input type="number" id="codigo" placeholder="Ex: 100">
+
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" id="quantidade" placeholder="Ex: 2">
+
+    <button id="botaoCalcular">Calcular Valor</button>
+
+    <p id="resultadoPedido"></p>
+
+    <h3>Cardápio</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th>Preço (R$)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>100</td><td>Cachorro Quente</td><td>11,00</td></tr>
+            <tr><td>101</td><td>Bauru</td><td>8,50</td></tr>
+            <tr><td>102</td><td>Misto Quente</td><td>8,00</td></tr>
+            <tr><td>103</td><td>Hambúrguer</td><td>9,00</td></tr>
+            <tr><td>104</td><td>Cheeseburguer</td><td>10,00</td></tr>
+            <tr><td>105</td><td>Refrigerante</td><td>4,50</td></tr>
+        </tbody>
+    </table>
+</body>
+<script src="script.js"></script>
+</html>
